@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+}
+
+.item1 {
+  background-color: red;
+  /* border: 5px solid black; */
+  width: 20rem;
+  height: 20rem;
+}
+
+.item2 {
+  background-color: blue;
+  /* border: 5px solid black; */
+  width: 20rem;
+  height: 20rem;
+}
+
+.item3 {
+  background-color: green;
+  /* border: 5px solid black; */
+  width: 20rem;
+  height: 20rem;
+}
