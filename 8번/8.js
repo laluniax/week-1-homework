@@ -1,4 +1,6 @@
-//<h1 id="heading"></h1>
-//h1 태그에 ‘제목입니다’ 라는 텍스트를 추가해보기
-
-document.getElementById("heading").innerHTML = " 제목입니다.";
+// 버튼 누르면 Prompt 창 띄우기
+document.querySelector(".btn").addEventListener("click", function () {
+  let 프롬프트 = prompt("왜 누르셨습니까?");
+  //prompt에 입력한 결과 alert 창에 띄우기
+  return alert(프롬프트);
+});
