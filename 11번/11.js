@@ -18,7 +18,7 @@ if (hours < 10) {
   //현재 시간이 오전 10시 전인 경우
   console.log("good morning !");
   // 현재 시간이 오전 10시 ~ 오후 6시 사이인 경우
-} else if (10 <= hours <= 18) {
+} else if ((hours >= 10, hours <= 18)) {
   console.log("good afternoon !");
   //현재 시간이 저녁 6시 이후(18시)인 경우
 } else {
